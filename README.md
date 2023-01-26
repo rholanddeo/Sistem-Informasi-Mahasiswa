@@ -1,10 +1,26 @@
-# Sistem-Informasi-Project-Monitoring
+# Sistem-Informasi-Mahasiswa
 
 username : admin,
 password : admin,
 
 database : banua_db
 
-![Login-Sistem-Informasi-Monitoring-Project](https://user-images.githubusercontent.com/121206148/211131135-919f143d-12b1-42fd-9d1b-90f0f11f5731.png)
-![Admin-Sistem-Informasi-Monitoring-Project](https://user-images.githubusercontent.com/121206148/211129455-d656da2f-92d5-45b2-b67b-752cdf0f2cf1.png)
-![Admin-Sistem-Informasi-Monitoring-Project (1)](https://user-images.githubusercontent.com/121206148/211129461-a72de386-c7b7-4f78-9964-ac1ef16f2dd7.png)
+Instalasi : copy file ke file htdocs phpmyadmin, kemudian ekspor database dengan nama yang sama. Untuk menjalankan akses folder yang telah di copy di file htdocs phpmyadmin
+
+# Login Form
+![Login-Sistem-Informasi-Mahasiswa](https://user-images.githubusercontent.com/121206148/214781166-28c787b3-91df-4c18-aca8-820204c9b7f6.png)
+
+# Beranda
+![Admin-Sistem-Informasi-Mahasiswa](https://user-images.githubusercontent.com/121206148/214780816-094f45de-f245-45e2-8f14-223273a170d3.png)
+
+# List Data
+![Admin-Sistem-Informasi-Mahasiswa (1)](https://user-images.githubusercontent.com/121206148/214780964-d9915026-26ee-48bc-9305-4485005f147e.png)
+
+# New Data
+![Admin-Sistem-Informasi-Mahasiswa (2)](https://user-images.githubusercontent.com/121206148/214780987-1a47f4dc-8405-42f1-82ea-73bb7fa09fb2.png)
+
+# Edit data
+![Admin-Sistem-Informasi-Mahasiswa (3)](https://user-images.githubusercontent.com/121206148/214781010-f0e3643e-fa56-4333-821f-0db9b8e4d489.png)
+
+# Search Data
+![Admin-Sistem-Informasi-Mahasiswa (4)](https://user-images.githubusercontent.com/121206148/214781053-1bb82ce0-06c7-443a-9d14-51ffc69c8a3f.png)
