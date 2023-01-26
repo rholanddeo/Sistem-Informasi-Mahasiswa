@@ -21,15 +21,11 @@ if(isset($_GET['id'])){
 		<form id="manage-movie">
 			<div class="form-group">
 				<input type="hidden" name="id" value="<?php echo isset($_GET['id']) ? $_GET['id'] : '' ?>">
-				<label for="" class="control-label">Project Name</label>
+				<label for="" class="control-label">NIM</label>
 				<input type="text" name="title" required="" class="form-control" value="<?php echo isset($meta['title']) ? $meta['title'] : '' ?>">
 			</div>
 			<div class="form-group">
-				<label for="" class="control-label">Client</label>
-				<input type="text" name="client" required="" class="form-control" value="<?php echo isset($meta['client']) ? $meta['client'] : '' ?>">
-			</div>
-			<div class="form-group">
-				<label for="" class="control-label">Project Leader</label>
+				<label for="" class="control-label">Nama</label>
 				<input type="text" name="leader" required="" class="form-control" value="<?php echo isset($meta['leader']) ? $meta['leader'] : '' ?>">
 			</div>
 			<div class="form-group">
@@ -37,22 +33,22 @@ if(isset($_GET['id'])){
 				<input type="text" name="email" required="" class="form-control" value="<?php echo isset($meta['email']) ? $meta['email'] : '' ?>">
 			</div>
 			<div class="form-group">
-				<label for="" class="control-label">Jadwal Mulai Proyek</label>
-				<input name="date_showing" id="" type="date" class="form-control" value="<?php echo isset($meta['date_showing']) ? $meta['date_showing'] : '' ?>" required>
+				<label for="" class="control-label">Jurusan</label>
+				<input type="text" name="jurusan" required="" class="form-control" value="<?php echo isset($meta['jurusan']) ? $meta['jurusan'] : '' ?>">
 			</div>
 			<div class="form-group">
-				<label for="" class="control-label">Tanggal Akhir Proyek</label>
-				<input name="end_date" id="" type="date" class="form-control" value="<?php echo isset($meta['end_date']) ? $meta['end_date'] : '' ?>" required>
+				<label for="" class="control-label">Semester</label>
+				<input type="text" name="semester" required="" class="form-control" value="<?php echo isset($meta['semester']) ? $meta['semester'] : '' ?>">
 			</div>
 			<div class="form-group">
-				<label for="" class="control-label">Progress</label>
-				<input type="text" name="progress" required="" class="form-control" value="<?php echo isset($meta['progress']) ? $meta['progress'] : '' ?>">
+				<label for="" class="control-label">IPK</label>
+				<input type="text" name="client" required="" class="form-control" value="<?php echo isset($meta['client']) ? $meta['client'] : '' ?>">
 			</div>
 			<div class="form-group">
 				<img src="assets/img/<?php echo isset($meta['cover_img']) ? $meta['cover_img'] : '' ?>" alt="" id="cover_img" width="50" height="75">
 			</div>
 			<div class="form-group input-group">
-				<label for="" class="control-label">Cover Image</label>
+				<label for="" class="control-label">Foto</label>
 				<br>
 				<div class="input-group-prepend">
 				    <span class="input-group-text">Upload</span>

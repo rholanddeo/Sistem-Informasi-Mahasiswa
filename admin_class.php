@@ -36,12 +36,11 @@ Class Action {
 	function save_movie(){
 		extract($_POST);
 		$data = " title = '".$title."' ";
-		$data .= ", client = '".$client."' ";
 		$data .= ", leader = '".$leader."' ";
 		$data .= ", email = '".$email."' ";
-		$data .= ", date_showing = '".$date_showing."' ";
-		$data .= ", end_date = '".$end_date."' ";
-		$data .= ", progress = '".$progress."' ";
+		$data .= ", jurusan = '".$jurusan."' ";
+		$data .= ", semester = '".$semester."' ";
+		$data .= ", client = '".$client."' ";
 
 
 		if($_FILES['cover']['tmp_name'] != ''){

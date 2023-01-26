@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Jan 2023 pada 04.26
+-- Waktu pembuatan: 26 Jan 2023 pada 07.31
 -- Versi server: 10.4.22-MariaDB
 -- Versi PHP: 8.1.2
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `banua_db`
+-- Database: `mhs_db`
 --
 
 -- --------------------------------------------------------
@@ -54,19 +54,19 @@ CREATE TABLE `movies` (
   `leader` text NOT NULL,
   `email` text NOT NULL,
   `cover_img` text NOT NULL,
-  `date_showing` date NOT NULL,
-  `end_date` date NOT NULL,
-  `progress` int(11) DEFAULT NULL
+  `jurusan` text NOT NULL,
+  `semester` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data untuk tabel `movies`
 --
 
-INSERT INTO `movies` (`id`, `title`, `client`, `leader`, `email`, `cover_img`, `date_showing`, `end_date`, `progress`) VALUES
-(26, 'MSIB Web Developer', 'YHC', 'Rholand Deo Eka Putra', 'rholanddeo210@gmail.com', '1673059440_DSC_0193-removebg-preview.png', '2023-01-06', '2023-01-07', 100),
-(27, 'MSIB Programmer', 'YHC', 'Rholand Deo Eka Putra', 'rholanddeo210@gmail.com', '1673059620_DSC_0193-removebg-preview.png', '2023-01-06', '2023-01-07', 10),
-(29, 'MSIB UI/UX Designer', 'YHC', 'Rholand Deo Eka Putra', 'rholanddeo210@gmail.com', '1673060040_DSC_0193-removebg-preview.png', '2023-01-06', '2023-01-07', 0);
+INSERT INTO `movies` (`id`, `title`, `client`, `leader`, `email`, `cover_img`, `jurusan`, `semester`) VALUES
+(26, '203010503019', '3,51', 'Rholand', 'rholanddeo210@gmail.com', '1673059440_DSC_0193-removebg-preview.png', 'Teknik Informatika', '6'),
+(27, '303010503017', '3,51', 'Deo', 'rholanddeo210@gmail.com', '1673059620_DSC_0193-removebg-preview.png', 'Teknik Elektro', '6'),
+(29, '402059802011', '3,8', 'Eka', 'rholanddeo210@gmail.com', '1673060040_DSC_0193-removebg-preview.png', 'Teknik Informatika', '7'),
+(30, '203010503019', '4', 'Putra', 'rholanddeo210@gmail.com', '1674714480_DSC_0193 (1).jpg', 'Teknik Informatika', '8');
 
 --
 -- Indexes for dumped tables
@@ -98,7 +98,7 @@ ALTER TABLE `logins`
 -- AUTO_INCREMENT untuk tabel `movies`
 --
 ALTER TABLE `movies`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

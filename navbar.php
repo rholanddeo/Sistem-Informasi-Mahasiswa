@@ -8,7 +8,7 @@
 		<div class="sidebar-list">
 				
 				<a href="index.php?page=book" class="nav-item nav-book"><span class='icon-field'><i class="fa fa-ticket"></i></span> Beranda</a>
-				<a href="index.php?page=movielist" class="nav-item nav-movielist"><span class='icon-field'><i class="fa fa-list"></i></span> List Project</a>
+				<a href="index.php?page=movielist" class="nav-item nav-movielist"><span class='icon-field'><i class="fa fa-list"></i></span> Data Mahasiswa</a>
 		</div>
 
 	</div>

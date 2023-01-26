@@ -9,7 +9,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-7">
-			<button class="btn btn-block btn-sm btn-primary col-sm-2" type="button" id="new_movie"><i class="fa fa-plus"></i> New Project</button>
+			<button class="btn btn-block btn-sm btn-primary col-sm-2" type="button" id="new_movie"><i class="fa fa-plus"></i> New Data</button>
 		</div>
 	</div>
 	<div class="row">
@@ -19,12 +19,11 @@
 					<thead>
 						<tr>
 							<th class="text-center">#</th>
-							<th class="text-center">Project Name</th>
-							<th class="text-center">Client</th>
-							<th class="text-center">Project Leader</th>
-							<th class="text-center">Start Date</th>
-							<th class="text-center">End Date</th>
-							<th class="text-center">Progress</th>
+							<th class="text-center">NIM</th>
+							<th class="text-center">Nama</th>
+							<th class="text-center">Jurusan</th>
+							<th class="text-center">Semester</th>
+							<th class="text-center">IPK</th>
 							<th class="text-center">Action</th>
 						</tr>
 					</thead>
@@ -37,11 +36,10 @@
 						 <tr>
 						 <td><?php echo $i++ ?></td>
 						 	<td><?php echo $row['title'] ?></td>
-							<td><?php echo $row['client'] ?></td>
 							<td align="center"><img src="assets/img/<?php echo $row['cover_img'] ?>" alt=""> <br><?php echo ucwords($row['leader']) ?> <br><?php echo ($row['email']) ?></td>
-						 	<td><?php echo date("d M, Y",strtotime($row['date_showing'])) ?></td>
-							<td><?php echo date("d M, Y",strtotime($row['end_date'])) ?></td>
-							<td><?php echo $row['progress'] ?> %</td>
+							<td><?php echo $row['jurusan'] ?></td>
+							<td><?php echo $row['semester'] ?></td>
+							<td><?php echo $row['client'] ?></td>
 	
 							<td>
 						 		<center>

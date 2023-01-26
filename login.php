@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Login | Sistem Informasi Monitoring Project</title>
+  <title>Login | Sistem Informasi Mahasiswa</title>
  	
 
 <?php include('./header.php'); ?>
